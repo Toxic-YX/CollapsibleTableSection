@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		591D6D5A1E6D30C60091CE30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 591D6D591E6D30C60091CE30 /* main.m */; };
+		591D6D5D1E6D30C60091CE30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 591D6D5C1E6D30C60091CE30 /* AppDelegate.m */; };
+		591D6D601E6D30C60091CE30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 591D6D5F1E6D30C60091CE30 /* ViewController.m */; };
+		591D6D631E6D30C60091CE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591D6D611E6D30C60091CE30 /* Main.storyboard */; };
+		591D6D651E6D30C60091CE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591D6D641E6D30C60091CE30 /* Assets.xcassets */; };
+		591D6D681E6D30C60091CE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591D6D661E6D30C60091CE30 /* LaunchScreen.storyboard */; };
+		591D6D731E6D30C60091CE30 /* CollapsibleTableSectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 591D6D721E6D30C60091CE30 /* CollapsibleTableSectionTests.m */; };
+		591D6D7E1E6D30C60091CE30 /* CollapsibleTableSectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 591D6D7D1E6D30C60091CE30 /* CollapsibleTableSectionUITests.m */; };
+		59534BF01E6D3319003DAD6C /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59534BEF1E6D3319003DAD6C /* DataModel.m */; };
+		59534BF91E6D3C78003DAD6C /* CollapsibleHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59534BF81E6D3C78003DAD6C /* CollapsibleHeaderFooterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		591D6D6F1E6D30C60091CE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 591D6D4D1E6D30C60091CE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 591D6D541E6D30C60091CE30;
+			remoteInfo = CollapsibleTableSection;
+		};
+		591D6D7A1E6D30C60091CE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 591D6D4D1E6D30C60091CE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 591D6D541E6D30C60091CE30;
+			remoteInfo = CollapsibleTableSection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		591D6D551E6D30C60091CE30 /* CollapsibleTableSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsibleTableSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		591D6D591E6D30C60091CE30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		591D6D5B1E6D30C60091CE30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		591D6D5C1E6D30C60091CE30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		591D6D5E1E6D30C60091CE30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		591D6D5F1E6D30C60091CE30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		591D6D621E6D30C60091CE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		591D6D641E6D30C60091CE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		591D6D671E6D30C60091CE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		591D6D691E6D30C60091CE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591D6D6E1E6D30C60091CE30 /* CollapsibleTableSectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsibleTableSectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		591D6D721E6D30C60091CE30 /* CollapsibleTableSectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollapsibleTableSectionTests.m; sourceTree = "<group>"; };
+		591D6D741E6D30C60091CE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591D6D791E6D30C60091CE30 /* CollapsibleTableSectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsibleTableSectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		591D6D7D1E6D30C60091CE30 /* CollapsibleTableSectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollapsibleTableSectionUITests.m; sourceTree = "<group>"; };
+		591D6D7F1E6D30C60091CE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59534BEE1E6D3319003DAD6C /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		59534BEF1E6D3319003DAD6C /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		59534BF71E6D3C78003DAD6C /* CollapsibleHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapsibleHeaderFooterView.h; sourceTree = "<group>"; };
+		59534BF81E6D3C78003DAD6C /* CollapsibleHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapsibleHeaderFooterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		591D6D521E6D30C60091CE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591D6D6B1E6D30C60091CE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591D6D761E6D30C60091CE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		591D6D4C1E6D30C60091CE30 = {
+			isa = PBXGroup;
+			children = (
+				591D6D571E6D30C60091CE30 /* CollapsibleTableSection */,
+				591D6D711E6D30C60091CE30 /* CollapsibleTableSectionTests */,
+				591D6D7C1E6D30C60091CE30 /* CollapsibleTableSectionUITests */,
+				591D6D561E6D30C60091CE30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		591D6D561E6D30C60091CE30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				591D6D551E6D30C60091CE30 /* CollapsibleTableSection.app */,
+				591D6D6E1E6D30C60091CE30 /* CollapsibleTableSectionTests.xctest */,
+				591D6D791E6D30C60091CE30 /* CollapsibleTableSectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		591D6D571E6D30C60091CE30 /* CollapsibleTableSection */ = {
+			isa = PBXGroup;
+			children = (
+				591D6D5B1E6D30C60091CE30 /* AppDelegate.h */,
+				591D6D5C1E6D30C60091CE30 /* AppDelegate.m */,
+				591D6D5E1E6D30C60091CE30 /* ViewController.h */,
+				591D6D5F1E6D30C60091CE30 /* ViewController.m */,
+				591D6D611E6D30C60091CE30 /* Main.storyboard */,
+				591D6D641E6D30C60091CE30 /* Assets.xcassets */,
+				591D6D661E6D30C60091CE30 /* LaunchScreen.storyboard */,
+				591D6D691E6D30C60091CE30 /* Info.plist */,
+				591D6D581E6D30C60091CE30 /* Supporting Files */,
+				59534BEE1E6D3319003DAD6C /* DataModel.h */,
+				59534BEF1E6D3319003DAD6C /* DataModel.m */,
+				59534BF71E6D3C78003DAD6C /* CollapsibleHeaderFooterView.h */,
+				59534BF81E6D3C78003DAD6C /* CollapsibleHeaderFooterView.m */,
+			);
+			path = CollapsibleTableSection;
+			sourceTree = "<group>";
+		};
+		591D6D581E6D30C60091CE30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				591D6D591E6D30C60091CE30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		591D6D711E6D30C60091CE30 /* CollapsibleTableSectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				591D6D721E6D30C60091CE30 /* CollapsibleTableSectionTests.m */,
+				591D6D741E6D30C60091CE30 /* Info.plist */,
+			);
+			path = CollapsibleTableSectionTests;
+			sourceTree = "<group>";
+		};
+		591D6D7C1E6D30C60091CE30 /* CollapsibleTableSectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				591D6D7D1E6D30C60091CE30 /* CollapsibleTableSectionUITests.m */,
+				591D6D7F1E6D30C60091CE30 /* Info.plist */,
+			);
+			path = CollapsibleTableSectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		591D6D541E6D30C60091CE30 /* CollapsibleTableSection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591D6D821E6D30C60091CE30 /* Build configuration list for PBXNativeTarget "CollapsibleTableSection" */;
+			buildPhases = (
+				591D6D511E6D30C60091CE30 /* Sources */,
+				591D6D521E6D30C60091CE30 /* Frameworks */,
+				591D6D531E6D30C60091CE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsibleTableSection;
+			productName = CollapsibleTableSection;
+			productReference = 591D6D551E6D30C60091CE30 /* CollapsibleTableSection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		591D6D6D1E6D30C60091CE30 /* CollapsibleTableSectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591D6D851E6D30C60091CE30 /* Build configuration list for PBXNativeTarget "CollapsibleTableSectionTests" */;
+			buildPhases = (
+				591D6D6A1E6D30C60091CE30 /* Sources */,
+				591D6D6B1E6D30C60091CE30 /* Frameworks */,
+				591D6D6C1E6D30C60091CE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591D6D701E6D30C60091CE30 /* PBXTargetDependency */,
+			);
+			name = CollapsibleTableSectionTests;
+			productName = CollapsibleTableSectionTests;
+			productReference = 591D6D6E1E6D30C60091CE30 /* CollapsibleTableSectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		591D6D781E6D30C60091CE30 /* CollapsibleTableSectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591D6D881E6D30C60091CE30 /* Build configuration list for PBXNativeTarget "CollapsibleTableSectionUITests" */;
+			buildPhases = (
+				591D6D751E6D30C60091CE30 /* Sources */,
+				591D6D761E6D30C60091CE30 /* Frameworks */,
+				591D6D771E6D30C60091CE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591D6D7B1E6D30C60091CE30 /* PBXTargetDependency */,
+			);
+			name = CollapsibleTableSectionUITests;
+			productName = CollapsibleTableSectionUITests;
+			productReference = 591D6D791E6D30C60091CE30 /* CollapsibleTableSectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		591D6D4D1E6D30C60091CE30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Rookie.YXiang;
+				TargetAttributes = {
+					591D6D541E6D30C60091CE30 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					591D6D6D1E6D30C60091CE30 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 591D6D541E6D30C60091CE30;
+					};
+					591D6D781E6D30C60091CE30 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 591D6D541E6D30C60091CE30;
+					};
+				};
+			};
+			buildConfigurationList = 591D6D501E6D30C60091CE30 /* Build configuration list for PBXProject "CollapsibleTableSection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 591D6D4C1E6D30C60091CE30;
+			productRefGroup = 591D6D561E6D30C60091CE30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				591D6D541E6D30C60091CE30 /* CollapsibleTableSection */,
+				591D6D6D1E6D30C60091CE30 /* CollapsibleTableSectionTests */,
+				591D6D781E6D30C60091CE30 /* CollapsibleTableSectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		591D6D531E6D30C60091CE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591D6D681E6D30C60091CE30 /* LaunchScreen.storyboard in Resources */,
+				591D6D651E6D30C60091CE30 /* Assets.xcassets in Resources */,
+				591D6D631E6D30C60091CE30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591D6D6C1E6D30C60091CE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591D6D771E6D30C60091CE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		591D6D511E6D30C60091CE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591D6D601E6D30C60091CE30 /* ViewController.m in Sources */,
+				59534BF01E6D3319003DAD6C /* DataModel.m in Sources */,
+				59534BF91E6D3C78003DAD6C /* CollapsibleHeaderFooterView.m in Sources */,
+				591D6D5D1E6D30C60091CE30 /* AppDelegate.m in Sources */,
+				591D6D5A1E6D30C60091CE30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591D6D6A1E6D30C60091CE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591D6D731E6D30C60091CE30 /* CollapsibleTableSectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591D6D751E6D30C60091CE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591D6D7E1E6D30C60091CE30 /* CollapsibleTableSectionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		591D6D701E6D30C60091CE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 591D6D541E6D30C60091CE30 /* CollapsibleTableSection */;
+			targetProxy = 591D6D6F1E6D30C60091CE30 /* PBXContainerItemProxy */;
+		};
+		591D6D7B1E6D30C60091CE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 591D6D541E6D30C60091CE30 /* CollapsibleTableSection */;
+			targetProxy = 591D6D7A1E6D30C60091CE30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		591D6D611E6D30C60091CE30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				591D6D621E6D30C60091CE30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		591D6D661E6D30C60091CE30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				591D6D671E6D30C60091CE30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		591D6D801E6D30C60091CE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		591D6D811E6D30C60091CE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		591D6D831E6D30C60091CE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollapsibleTableSection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rookie.YXiang.CollapsibleTableSection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		591D6D841E6D30C60091CE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollapsibleTableSection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rookie.YXiang.CollapsibleTableSection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		591D6D861E6D30C60091CE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollapsibleTableSectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rookie.YXiang.CollapsibleTableSectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsibleTableSection.app/CollapsibleTableSection";
+			};
+			name = Debug;
+		};
+		591D6D871E6D30C60091CE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollapsibleTableSectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rookie.YXiang.CollapsibleTableSectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsibleTableSection.app/CollapsibleTableSection";
+			};
+			name = Release;
+		};
+		591D6D891E6D30C60091CE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollapsibleTableSectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rookie.YXiang.CollapsibleTableSectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollapsibleTableSection;
+			};
+			name = Debug;
+		};
+		591D6D8A1E6D30C60091CE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollapsibleTableSectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rookie.YXiang.CollapsibleTableSectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollapsibleTableSection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		591D6D501E6D30C60091CE30 /* Build configuration list for PBXProject "CollapsibleTableSection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591D6D801E6D30C60091CE30 /* Debug */,
+				591D6D811E6D30C60091CE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591D6D821E6D30C60091CE30 /* Build configuration list for PBXNativeTarget "CollapsibleTableSection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591D6D831E6D30C60091CE30 /* Debug */,
+				591D6D841E6D30C60091CE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591D6D851E6D30C60091CE30 /* Build configuration list for PBXNativeTarget "CollapsibleTableSectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591D6D861E6D30C60091CE30 /* Debug */,
+				591D6D871E6D30C60091CE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591D6D881E6D30C60091CE30 /* Build configuration list for PBXNativeTarget "CollapsibleTableSectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591D6D891E6D30C60091CE30 /* Debug */,
+				591D6D8A1E6D30C60091CE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 591D6D4D1E6D30C60091CE30 /* Project object */;
+}
